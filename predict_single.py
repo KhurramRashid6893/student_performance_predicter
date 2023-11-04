@@ -31,7 +31,7 @@ def app():
 
 
 	# Now you can use the model to make predictions for new data
-	st.sidebar.header("Student performance prediction Web App")
+	st.sidebar.header("Student Performance Prediction Web App")
 	p_len = st.sidebar.slider("Previous Scores", float(df["Previous Scores"].min()), float(df["Previous Scores"].max()))
 
 	if st.sidebar.button("Predict"):
