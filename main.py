@@ -18,8 +18,8 @@ st.set_page_config(page_title = 'Student Performance',
 pages_dict = {"Home": home,
 		      # "Single Linear Regression": student_single,
           #     "Multiple Linear Regression": student_multi,
-              "Student performance using single linear regression": predict_single,
-              "Student performance using multiple linear regression": predict_multi
+              "Student performance using Single Linear Regression": predict_single,
+              "Student performance using Multiple Linear Regression": predict_multi
 
               }
 
