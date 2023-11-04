@@ -31,7 +31,7 @@ def app():
 
 
 	# Now you can use the model to make predictions for new data
-	st.sidebar.header("Student performance prediction Web App")
+	st.sidebar.header("Student Performance Prediction Web App")
 	h_len = st.sidebar.slider("Hours Studied", float(df["Hours Studied"].min()), float(df["Hours Studied"].max()))
 	p_len = st.sidebar.slider("Previous Scores", float(df["Previous Scores"].min()), float(df["Previous Scores"].max()))
 	s_len = st.sidebar.slider("Sleep Hours", float(df["Sleep Hours"].min()), float(df["Sleep Hours"].max()))
